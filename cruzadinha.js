@@ -17,3 +17,16 @@ for (var i = 0; i < inputs.length; i++) {
     }
   });
 }
+const openModalButton = document.querySelector("#open-modal");
+const closeModalButton = document.querySelector("#close-modal");
+const modal = document.querySelector("#modal");
+const fade = document.querySelector("#fade");
+const modalimg = document.querySelector("#modal-img")
+const toggleModal = () => {
+  modalimg.classList.toggle("hide")
+  modal.classList.toggle("hide");
+  fade.classList.toggle("hide");
+};
+[openModalButton, closeModalButton, fade, modalimg].forEach((el) => {
+  el.addEventListener("click", () => toggleModal())
+});

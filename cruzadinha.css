@@ -9,18 +9,32 @@
 }
 body {
   padding: 1rem;
+  background-image: linear-gradient(to right,#9F8AEF, #3f3955 );
+  height: 100vh;
+}
+h1 {
+  font-size: 2.7em
+}
+#dicas {
+  width: 35vw;
+
+}
+#dicas h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem
 }
 ;.home h1 {
-  z-index: 999;
-  position: relative;
+  z-index: 1;
+  position: absolute;
+
 }
 .home video {
- 
-  z-index: 000;
   position: absolute;
+  z-index: 000;
   top: 0;
   right: 0;
-  width: 100%;
+  width: 60%;
   height: 100%;
   object-fit: cover;
   filter: blur(9px);
@@ -110,11 +124,12 @@ background-color: #88888871; }
   }
   
 table {
-  position: relative;
+  position: absolute;
     text-align: center;
     padding:10px;
     border:1px dashed #888;
-  }
+left: 55%;
+top: 15%;  }
   
   td {
     border:1px dashed #BFBFF9;
@@ -134,3 +149,8 @@ table {
     text-align:center;
     border: 2px solid #222;
   }
+#tela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

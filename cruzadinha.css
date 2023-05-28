@@ -154,3 +154,8 @@ top: 15%;  }
   justify-content: center;
   align-items: center;
 }
+#modal header modal-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

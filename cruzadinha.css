@@ -9,11 +9,15 @@
 }
 body {
   padding: 1rem;
-  background-image: linear-gradient(to right,#9F8AEF, #3f3955 );
+  background-image: linear-gradient(to bottom, #8265e8,#9F8AEF, #c896d8 );
   height: 100vh;
 }
+div p {
+  text-align: center
+
+}
 h1 {
-  font-size: 2.7em
+  font-size: 2em
 }
 #dicas {
   width: 35vw;
@@ -80,7 +84,7 @@ button:hover {
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  width: 700px;
+  width: 35rem;
   max-width: 90%;
   padding: 1.2rem;
   border-radius: .5rem;
@@ -92,7 +96,7 @@ background-color: #88888871; }
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  width: 65rem;
+  width: 40rem;
   max-width: 90%;
   padding: 1.2rem;
   border-radius: .5rem;
@@ -129,7 +133,7 @@ table {
     padding:10px;
     border:1px dashed #888;
 left: 55%;
-top: 15%;  }
+top: 10%;  }
   
   td {
     border:1px dashed #BFBFF9;
@@ -138,7 +142,7 @@ top: 15%;  }
   }
   
   .dark {
-    background:#333;
+    background:#33333387;
     
   }
   

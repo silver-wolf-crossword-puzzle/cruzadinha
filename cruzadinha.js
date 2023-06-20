@@ -99,12 +99,25 @@ function proxima() {
       dica_16.style.display = 'block'
 
       contador++
-  } else if (contador == 16) {
-      dica_16.style.display = 'none'
+  }
+  else if (contador == 16) {
+    dica_16.style.display = 'none'
+    dica_17.style.display = 'block'
+
+    contador++
+}
+else if (contador == 17) {
+    dica_17.style.display = 'none'
+    dica_18.style.display = 'block'
+
+    contador++
+} else if (contador == 18) {
+      dica_18.style.display = 'none'
       dica_1.style.display = 'block'
 
       contador = 1
   }
+  
 }
 
 const openModalButton = document.querySelector("#open-modal");
